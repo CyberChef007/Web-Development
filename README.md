@@ -1,0 +1,1 @@
+This repository contains all the codes and projects related to different concepts in Web Development.
