@@ -1,0 +1,61 @@
+/* Types of CSS Selectors */
+/* Tag Selector */
+/* Class Selector */
+/* ID Selector */
+/* Pseudo Class Selector */
+
+/* Tag Selector */
+h1{
+    color: yellowgreen;
+}
+/* div {
+    background-color: orange;
+} */
+.message{
+    background-color: purple;
+    color: white;
+}
+
+
+
+
+/* Class Selector */
+
+.wrapper{
+    background-color: blue;
+}
+
+.container{
+    background-color: green;
+}
+
+
+
+/* ID Selector */
+
+#hello{
+    background-color: orange;
+}
+
+
+
+/* Pseudo Class Selector */
+
+/* ul li:nth-child(3){
+    background-color: red;
+} */
+
+
+/* ul li:nth-last-child(4){
+    background-color: red;
+} */
+
+
+/* ul li:nth-of-type(2n + 2){
+    background-color: purple;
+} */
+
+ul li:hover{
+    background-color: purple;
+    color: white;
+}
