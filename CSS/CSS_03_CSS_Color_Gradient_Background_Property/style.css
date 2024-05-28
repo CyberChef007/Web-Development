@@ -1,0 +1,66 @@
+h1{
+    color: red;
+}
+
+#container{
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+    background-image: url(https://plus.unsplash.com/premium_photo-1682513184135-b7b9b76fb4eb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGltYWdlfGVufDB8fDB8fHww);
+    background-repeat: no-repeat;
+
+    /* background-size is of three types : 
+    1) auto : original size of the image 
+    2) cover : scales according to the size of the container
+    3) contain : logical scaling but not complete size of the parent div*/
+
+    background-size: cover;
+}
+
+/* Color in CSS */
+/* Normal Way : red, yellow, pink */
+/* Hex Code : #ff0036 */
+/* rgb : rgb(100,100,100) */
+
+
+p{
+    /* Normal Way */
+    /* color: white; */
+
+
+    /* Hex Code Method */
+    /* #__ __ __  ---> 00 - ff --> red green blue alpha_value*/
+    /* color: #00ff0067; */
+
+
+
+    /* rgb method */
+    /* rgb(0-255,0-255,0-255)  ---> rgb(red,green,blue) */
+    /* rgba(0-255,0-255,0-255,0-1)  ---> rgb(red,green,blue,alpha_value) */
+    /* color: rgb(255, 255, 255); */
+    /* color: rgba(255, 0, 0, 1); */
+
+
+    /* HSL Method */
+    /* HSL stands for Hue, Saturation, Lightness */
+    /* hsl(hue,saturation,lightness)  ---> hue -> 0-360,  saturation,lightness  ->  0- 100% */
+    /* hsla(hue,saturation,lightness,alpha_value)  ---> hue -> 0-360,  saturation,lightness  ->  0- 100%,  alpha_value -> 0-1 */
+    color: hsl(359, 57%, 40%);
+}
+
+
+/* Gradient -> Combination of more than one color */
+/* Types of Gradient */
+/* 1) Linear Gradient */
+/* 2) Radial Gradient */
+/* 3) Conic Gradient */
+
+body{
+    /* background: linear-gradient(120deg,red,yellow); */
+    /* background: linear-gradient(to left,red,yellow); */
+    /* background: radial-gradient(red,yellow); */
+    background: conic-gradient(red,yellow);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
